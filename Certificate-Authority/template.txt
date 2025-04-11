@@ -1,0 +1,24 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = US
+ST = VT
+L = Burlington
+O = connorjay.me
+OU = Independent Skills Development Environment
+CN = template.connorjay.me
+
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = template.connorjay.me
+DNS.2 = template
+DNS.3 = 10.100.30.XX
+
+# openssl req -new -newkey rsa:2048 -nodes -keyout p-key.key -out request.csr -config template.txt
