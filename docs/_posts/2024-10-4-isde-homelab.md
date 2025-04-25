@@ -1,13 +1,8 @@
 ---
 layout: inner
 position: left
-title: 'Independent Skills Development Environment'
-date: 2024-10-4 12:15:00
-categories: networking virtualization
-tags: Networking Virtualization Homelab
-featured_image: '/img/posts/isde-1130x864.png'
-project_link: 'https://www.connorjay.me/ISDE-Homelab/'
-button_icon: 'ethernet'
-button_text: 'Visit Project'
-lead_text: "A datacenter-grade home-lab environment used for studying advanced technologies outside of classes."
+title: 'Rationale (Why did I start a lab environment?)'
+lead_text:  "I began working on my environment in early October when I came to realize that the classes at my college were not offering enough of a challenge towards my academic skillset."
+---
+summary_text: "After negotiating a budget for the lab with my father, and carefully curating a list of initial equipment, I made an initial purchase for a server and some switches."
 ---

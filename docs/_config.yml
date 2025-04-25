@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Independent Skills Development Environment"
 email: 'connorjay130@gmail.com'
-description: "A datacenter-grade home-lab environment built by a student for pursuing advanced technologies outside of classes."
+description: "A datacenter-grade home-lab environment built by a student for pursuing more advanced technologies outside of classes."
 baseurl: "/ISDE-Homelab" # the subpath of your site, e.g. /blog
 url: "https://www.connorjay.me" # the base hostname & protocol for your site, e.g. https://example.com
 #linkedin_username: 'connorethanjay'
