@@ -1,22 +1,39 @@
 
-    <footer class="site-footer">
+<footer class="site-footer">
       <div class="container">
-        <div class="row">
+        <!--     <h2 class="footer-heading">Yash Shah</h2> -->
 
-          <div class="col-xs-12 col-md-2 col-md-offset-1">
-            <p class="text-muted text-left "><a href="{{ site.url }}">{{ site.footer_text }}</a></p>
-          </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+          <a class="navbar-brand" href="/">Connor E Jay</a>
+      </div>
+      <div class="footer-col  footer-col-2">
+          <a href="mailto:connor.jay@mymail.champlain.edu">connor.jay@mymail.champlain.edu</a>
+            <br>
+          <a href="mailto:connorjay130@gmail.com">connorjay130@gmail.com</a>
+      </div>
 
-          <div class="col-xs-12 col-md-6 col-md-offset-2">
-            <a class="section-jump" href="#top">
-              <i class="fa fa-angle-up fa-3x"></i>
-            </a>
+      <div class="footer-col  footer-col-3">
+        {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i> Github</a>
+        {% endif %}
+
+        {% if site.linkedin_username != '' %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-lg"></i> Linkedin</a>
+        {% endif %}
+      </div>
+
+      <div class="footer-col  footer-col-4">
+         <p class="text">
+            Junior Solutions Engineer at Simpleroute
+           <br>
+            Final-year Computer Networking and Cybersecurity Undergraduate at Champlain College
           </div>
         </div>
       </div>
-    </footer>
+  </footer>
 
-  </div><!-- .main.container -->
+
 
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -36,5 +53,3 @@
 
     </script>
 
-    </body>
-</html>
