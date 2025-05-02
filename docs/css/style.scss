@@ -229,18 +229,6 @@ button.btn, input.btn {
   position: relative;
   margin: 0 auto;
   margin-bottom: 1em;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 1.35em;
-    width: 3em;
-    height: 3px;
-    background-color: #ECEFF1;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
 }
 
 .section-subtitle {
@@ -265,9 +253,11 @@ button.btn, input.btn {
   img.img-responsive {
     @include bp-xsmall {
       display: none;
+      border-radius: 8px;
     }
     @include bp-small {
       display: none;
+      border-radius: 8px;
     }
   }
   .content {
@@ -279,15 +269,6 @@ button.btn, input.btn {
     h3.title {
       position: relative;
       margin-bottom: 1.5em;
-      &:after {
-        content: '';
-        position: absolute;
-        top: 1.5em;
-        left: 0;
-        width: 3em;
-        height: 3px;
-        background-color: #ECEFF1;
-      }
     }
     .excerpt {
       width: 80%;
