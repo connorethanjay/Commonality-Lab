@@ -20,7 +20,8 @@ $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
-%merriweather { font-family: 'Merriweather', serif; }
+%merriweather { font-family: 'Cormorant Garamond', 'Merriweather', serif; }
+
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -40,7 +41,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @extend %merriweather;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 article {
@@ -50,6 +51,7 @@ article {
 p {
   line-height: 1.8;
   font-size: 1.3em;
+  font-weight: 100;
 }
 
 a {
@@ -77,7 +79,7 @@ button.btn, input.btn {
   border: solid 1px #d5e0e7;
   border-radius: 4px;
   color: #2E4453;
-  font-weight: 600;
+  font-weight: 200;
   &:hover, &.btn-default:hover {
     background-color: white;
     border: solid 1px #b0c5d2;
