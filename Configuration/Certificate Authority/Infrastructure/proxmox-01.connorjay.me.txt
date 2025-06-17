@@ -1,0 +1,19 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+O = internal.connorjay.me
+OU = Infrastructure
+CN = proxmox-01.connorjay.me
+
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = proxmox-01.connorjay.me
+DNS.2 = proxmox-01
+DNS.3 = 10.100.30.5
