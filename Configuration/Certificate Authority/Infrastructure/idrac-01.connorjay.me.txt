@@ -4,9 +4,9 @@ req_extensions = v3_req
 prompt = no
 
 [req_distinguished_name]
-O = internal.connorjay.me
+O = internal.commonalitylab.com
 OU = Infrastructure
-CN = idrac-01.connorjay.me
+CN = idrac-01.internal.commonalitylab.com
 
 [v3_req]
 keyUsage = keyEncipherment, dataEncipherment
@@ -14,6 +14,6 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = idrac-01.connorjay.me
+DNS.1 = idrac-01.internal.commonalitylab.com
 DNS.2 = idrac-01
 DNS.3 = 10.100.30.60
