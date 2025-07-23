@@ -1,8 +1,8 @@
-![internal-connorjayme](https://github.com/user-attachments/assets/f896adc8-0d31-4076-911c-525d58e59aee)
+<img width="2433" height="700" alt="commonalitylab-com-02-raster" src="https://github.com/user-attachments/assets/e29d8a68-7053-426b-9e0f-06addcb59c63"/>
 
 ***
 
-This repository contains the resources and documentation for my network & systems engineering lab environment, which I use to develop skills in new industry topics.
+The Commonality Lab is a comprehensive lab environment designed to help bridge the gap between academic coursework and real-world industry experience in Network Engineering, System Administration, and the general Cybersecurity industry. 
 
 The information in this repository is subject to change at any time since it is used for practice.
 
