@@ -2,7 +2,7 @@
 
 ***
 
-LabScale is a service that seeks to provide educational institutions with their own private-clouds, delivering quality education to students in majors such as information technology (IT) & cybersecurity.
+LabScale seeks to provide educational institutions with their own private-clouds, delivering quality education to students in majors such as information technology (IT) & cybersecurity.
 
 This Github repository is used as a backup for marketing and media graphics (eg. .png and .svg) and written documentation for LabScale (as my Senior Capstone project attending Champlain College).
 
