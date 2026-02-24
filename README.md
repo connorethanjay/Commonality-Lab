@@ -1,11 +1,11 @@
-<img alt="LabScale" src="https://github.com/user-attachments/assets/24be9c7b-b6ca-428f-af8b-292d4e97bc3e" />
+<img alt="LabScale" src="https://github.com/user-attachments/assets/31a6fa49-f057-483b-9ebf-5003534a4d4c" />
 
 ***
 
-LabScale is a cloud infrastructure project designed to provide educational institutions and businesses with dedicated, scalable environments for hands-on technical training & virtualization workloads.
+LabScale is a service that seeks to provide educational institutions with their own private-clouds, delivering quality education to students in majors such as information technology (IT) & cybersecurity.
 
-The information in this Github repository is subject to change at any time since this project is currently a work-in-progress.
+This Github repository is used as a backup for marketing and media graphics (eg. .png and .svg) and written documentation for LabScale (as my Senior Capstone project attending Champlain College).
 
 ## Where can I find your documentation?
 
-Please refer to the Wiki tab for written documentation, and the Code tab for any referenced files.
+Please refer to the Wiki tab for written documentation, the Code tab for any referenced files or media/marketing graphics.
